@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D8459EB234F7EF5009F4CF7 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D614273234D18A700460CEF /* Lobster-Regular.ttf */; };
+		2D8459EC234F7EF5009F4CF7 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D614272234D18A700460CEF /* Montserrat-Black.ttf */; };
+		2D8459ED234F7EF5009F4CF7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D614270234D18A700460CEF /* Montserrat-Bold.ttf */; };
+		2D8459EE234F7EF5009F4CF7 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D614271234D18A700460CEF /* Montserrat-Medium.ttf */; };
 		2DCFBCA9234BDADE006642B0 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DCFBCA3234BDADE006642B0 /* 4.wav */; };
 		2DCFBCAA234BDADE006642B0 /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DCFBCA4234BDADE006642B0 /* 5.wav */; };
 		2DCFBCAB234BDADE006642B0 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DCFBCA5234BDADE006642B0 /* 3.wav */; };
@@ -148,6 +152,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8459EB234F7EF5009F4CF7 /* Lobster-Regular.ttf in Resources */,
+				2D8459EC234F7EF5009F4CF7 /* Montserrat-Black.ttf in Resources */,
+				2D8459ED234F7EF5009F4CF7 /* Montserrat-Bold.ttf in Resources */,
+				2D8459EE234F7EF5009F4CF7 /* Montserrat-Medium.ttf in Resources */,
 				2DCFBCAE234BDADE006642B0 /* 2.wav in Resources */,
 				2DCFBCAB234BDADE006642B0 /* 3.wav in Resources */,
 				2DEC8A1B234B96D80075346E /* LaunchScreen.storyboard in Resources */,
