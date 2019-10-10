@@ -163,6 +163,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         buttonReplay.isHidden = true
         
+        //Referenced from https://stackoverflow.com/questions/26961274/how-can-i-make-a-button-have-a-rounded-border-in-swift
+        //**Not sure if I'm supposed to reference this or not because it is from Stack Overflow
         buttonPlay.layer.cornerRadius = 10
         button7th.layer.cornerRadius = 10
         button6th.layer.cornerRadius = 10
