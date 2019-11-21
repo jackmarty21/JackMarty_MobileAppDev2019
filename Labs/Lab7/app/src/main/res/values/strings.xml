@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="appTitle">What Should you Cook?</string>
+    <string name="toggle_on">Hot</string>
+    <string name="toggle_off">Cold</string>
+    <string name="buttonText">Find Recipe</string>
+    <string-array name="protein">
+        <item>Chicken</item>
+        <item>Steak</item>
+        <item>Veggie</item>
+    </string-array>
+    <string name="radio1">Baked</string>
+    <string name="radio2">Fried</string>
+    <string name="radio3">Grilled</string>
+    <string name="check1">Salad</string>
+    <string name="check2">Rice</string>
+    <string name="check3">Noodles</string>
+</resources>
