@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="MusicTitle">Find Your Music</string>
+    <string-array name="Genres">
+        <item>Bluegrass</item>
+        <item>Psychedelic</item>
+        <item>Rock</item>
+        <item>Metal</item>
+        <item>Hip-Hop</item>
+    </string-array>
+    <string name="FindMusic">Find Music</string>
+    <string name="title_activity_your_music">YourMusicActivity</string>
+</resources>
