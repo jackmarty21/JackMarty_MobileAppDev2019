@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab8</string>
+    <string name="app_name">Unlock Your Music</string>
     <string name="MusicTitle">Find Your Music</string>
     <string-array name="Genres">
         <item>Bluegrass</item>
@@ -9,5 +9,5 @@
         <item>Hip-Hop</item>
     </string-array>
     <string name="FindMusic">Find Music</string>
-    <string name="title_activity_your_music">YourMusicActivity</string>
+    <string name="title_activity_your_music">Unlock Your Music</string>
 </resources>
