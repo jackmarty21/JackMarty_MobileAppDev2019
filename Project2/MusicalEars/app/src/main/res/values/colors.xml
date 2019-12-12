@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#4d3a39</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="toastWrongBG">#a83232</color>
     <color name="toastRightBG">#32a848</color>
+    <color name="background">#fae1bb</color>
+    <color name="buttonInterval">#ab8e72</color>
 </resources>

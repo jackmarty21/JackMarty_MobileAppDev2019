@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -101,54 +102,127 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                //Stop, release, and replay mediaplayer
                 switch (random) {
                     case 1:
                         Log.i("debug", "play1");
-                        play1.start();
+                        try {
+                            play1.stop();
+                            play1.prepare();
+                            play1.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 2:
                         Log.i("debug", "play2");
-                        play2.start();
+                        try {
+                            play2.stop();
+                            play2.prepare();
+                            play2.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 3:
                         Log.i("debug", "play3");
-                        play3.start();
+                        try {
+                            play3.stop();
+                            play3.prepare();
+                            play3.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 4:
                         Log.i("debug", "play4");
-                        play4.start();
+                        try {
+                            play4.stop();
+                            play4.prepare();
+                            play4.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 5:
                         Log.i("debug", "play5");
-                        play5.start();
+                        try {
+                            play5.stop();
+                            play5.prepare();
+                            play5.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 6:
                         Log.i("debug", "play6");
-                        play6.start();
+                        try {
+                            play6.stop();
+                            play6.prepare();
+                            play6.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 7:
                         Log.i("debug", "play7");
-                        play7.start();
+                        try {
+                            play7.stop();
+                            play7.prepare();
+                            play7.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 8:
                         Log.i("debug", "play8");
-                        play8.start();
+                        try {
+                            play8.stop();
+                            play8.prepare();
+                            play8.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 9:
                         Log.i("debug", "play9");
-                        play9.start();
+                        try {
+                            play9.stop();
+                            play9.prepare();
+                            play9.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 10:
                         Log.i("debug", "play10");
-                        play10.start();
+                        try {
+                            play10.stop();
+                            play10.prepare();
+                            play10.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 11:
                         Log.i("debug", "play11");
-                        play11.start();
+                        try {
+                            play11.stop();
+                            play11.prepare();
+                            play11.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 12:
                         Log.i("debug", "play12");
-                        play12.start();
+                        try {
+                            play12.stop();
+                            play12.prepare();
+                            play12.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                 }
             }
@@ -165,54 +239,127 @@ public class MainActivity extends AppCompatActivity {
                 play.setEnabled(false);
                 replay.setEnabled(true);
 
+                //Stop, release, and replay mediaplayer
                 switch (random) {
                     case 1:
                         Log.i("debug", "play1");
-                        play1.start();
+                        try {
+                            play1.stop();
+                            play1.prepare();
+                            play1.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 2:
                         Log.i("debug", "play2");
-                        play2.start();
+                        try {
+                            play2.stop();
+                            play2.prepare();
+                            play2.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 3:
                         Log.i("debug", "play3");
-                        play3.start();
+                        try {
+                            play3.stop();
+                            play3.prepare();
+                            play3.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 4:
                         Log.i("debug", "play4");
-                        play4.start();
+                        try {
+                            play4.stop();
+                            play4.prepare();
+                            play4.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 5:
                         Log.i("debug", "play5");
-                        play5.start();
+                        try {
+                            play5.stop();
+                            play5.prepare();
+                            play5.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 6:
                         Log.i("debug", "play6");
-                        play6.start();
+                        try {
+                            play6.stop();
+                            play6.prepare();
+                            play6.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 7:
                         Log.i("debug", "play7");
-                        play7.start();
+                        try {
+                            play7.stop();
+                            play7.prepare();
+                            play7.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 8:
                         Log.i("debug", "play8");
-                        play8.start();
+                        try {
+                            play8.stop();
+                            play8.prepare();
+                            play8.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 9:
                         Log.i("debug", "play9");
-                        play9.start();
+                        try {
+                            play9.stop();
+                            play9.prepare();
+                            play9.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 10:
                         Log.i("debug", "play10");
-                        play10.start();
+                        try {
+                            play10.stop();
+                            play10.prepare();
+                            play10.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 11:
                         Log.i("debug", "play11");
-                        play11.start();
+                        try {
+                            play11.stop();
+                            play11.prepare();
+                            play11.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                     case 12:
                         Log.i("debug", "play12");
-                        play12.start();
+                        try {
+                            play12.stop();
+                            play12.prepare();
+                            play12.start();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
                 }
             }
