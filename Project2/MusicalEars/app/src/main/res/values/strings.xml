@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"></string>
+    <string name="app_name">Musical Ears</string>
     <string name="appTitle">Musical Ears</string>
     <string name="play">Play</string>
     <string name="Replay">Replay</string>
