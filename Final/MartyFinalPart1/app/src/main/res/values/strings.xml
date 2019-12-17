@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Burrito</string>
+    <string name="Title">Burrito Builder</string>
+    <string name="buildButton">Build</string>
+</resources>

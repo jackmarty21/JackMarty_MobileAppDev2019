@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Burrito</string>
+    <string name="Title">Burrito Builder</string>
+    <string name="buildButton">Build</string>
+    <string name="toggleOn">Meat</string>
+    <string name="toggleOff">Veggie</string>
+    <string name="radio1">burrito</string>
+    <string name="radio2">taco</string>
+    <string name="check1">salsa</string>
+    <string name="check2">cheese</string>
+    <string name="check3">sour cream</string>
+    <string name="check4">guacamole</string>
+    <string name="switchText">Gluten-free</string>
+    <string-array name="locationArray">
+        <item>The Hill</item>
+        <item>29th Street</item>
+        <item>Pearl Street</item>
+    </string-array>
+</resources>
